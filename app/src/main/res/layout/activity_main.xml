@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/trivia_quiz" />
+
+    <TextView
+        android:id="@+id/name_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:letterSpacing=".15"
+        android:padding="15dp"
+        android:text="Jose Armando Vazquez(20164999)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:letterSpacing=".15"
+        android:padding="15dp"
+        android:text="Enter your name"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="write a name" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue" />
+
+</LinearLayout>

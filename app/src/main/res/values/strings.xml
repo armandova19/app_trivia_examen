@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">app_trivia</string>
+    <string name="question1">¿Cuales son las tecnologias que se utilizan para el desarrollo
+    de aplicaciones hibridas?</string>
+    <string name="answ1">IONIC, REACT NATIVE, FLUTTER</string>
+    <string name="ans2">Android studio, XCode</string>
+    <string name="ans3">Android Studio, IONIC, FLUTTER</string>
+    <string name="question2">Una aplicacion diseñada especificamente para un sistema
+    operativo es conocida como:</string>
+    <string name="hib_ans">Hibrida</string>
+    <string name="nat_ans">Nativa</string>
+    <string name="mo_ans">Movil</string>
+    <string name="question3">Google Play es una tienda oficial de:</string>
+    <string name="al_1">Aplicaciones para Linux</string>
+    <string name="apa_2">Aplicaciones para Android</string>
+    <string name="ai_3">Aplicaciones para IOS</string>
+    <string name="try_again">Reintentar</string>
+</resources>
